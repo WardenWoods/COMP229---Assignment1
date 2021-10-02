@@ -1,0 +1,92 @@
+<!-- 
+  projects.ejs
+  Matthew Bradley - 301089966
+  30 Sept 2021
+
+  Projects page
+-->
+
+<%- include partials/header.ejs %>
+<%- include partials/main_nav.ejs %>
+  
+  <!-- Projects Content -->
+  <main class="projects">
+    <div class="container">
+      <div class="section-title">
+        <h2>Projects</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="/Assets/images/project-1.png">
+              <div class="work-img">
+                <img src="/Assets/images/project-1.png" alt="" class="img-fluid">
+              </div>
+            </a>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h2 class="w-title">Grocery Atlas</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">Mobile & Web Browser Application Development</span> / <span class="w-date">12 May 2020</span>
+                    <p class="w-description">Conceptually developed during the COVID-19 pandeminc, the app is targeted at those who wish to reduce the duration of their shopping trips
+                      and pay the lowest total price for their grocery cart.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="/Assets/images/project-2.png">
+              <div class="work-img">
+                <img src="/Assets/images/project-2.png" alt="" class="img-fluid">
+              </div>
+            </a>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h2 class="w-title">Bradley's Munitions</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">Programming 2</span> / <span class="w-date">19 Nov. 2020</span>
+                    <p class="w-description">Firearm selection interface that allows users to choose their preferred caliber, make and model of firearm.
+                      Generating a randomized serial number attached to the firearm and registering their name contact information.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="/Assets/images/project-3.jpg">
+              <div class="work-img">
+                <img src="/Assets/images/project-3.jpg" alt="" class="img-fluid">
+              </div>
+            </a>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h2 class="w-title">Workplace Project & Efficiency Tracker</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">Freelance</span> / <span class="w-date">10 Jan. 2021</span>
+                    <p class="w-description">
+                      A management tool designed for employers to track budgets and invoices for different projects.
+                      As well as expound on which worker is tasked for certain jobs, each with their own deadlines.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- End Projects Content -->
+
+<%- include partials/bottom_nav.ejs %>  
+<%- include partials/footer.ejs %>
