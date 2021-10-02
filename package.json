@@ -6,7 +6,7 @@
     
   },
   "engines": {
-    "node": "^12.00.1",
+    "node": "^10.00.1",
     "npm": "^6.0.0"
   },
   "dependencies": {
