@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./server.js"
+    
   },
   "engines": {
-    "node": "^12.00.6",
+    "node": "^12.00.1",
     "npm": "^6.0.0"
   },
   "dependencies": {
